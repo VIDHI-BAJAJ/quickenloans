@@ -1,7 +1,9 @@
 import { useState } from "react";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTimes } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
-import Logo from "../images/Logo.png"
+import { Link } from "react-router-dom";
+import Logo from "../images/Logo.png";
+
 const Footer = () => {
   // Office toggle state
   const [openOffice, setOpenOffice] = useState(null);
@@ -32,12 +34,12 @@ const Footer = () => {
         <div>
           <h3 className="font-bold mb-4">Quick Links</h3>
           <ul className="space-y-2">
-            <li><a href="/">Home</a></li>
-            <li><a href="/aboutus">About us</a></li>
-            <li><a href="/calculators">Calculators</a></li>
-            <li><a href="/testimonials">Testimonials</a></li>
-            <li><a href="/contactus">Contact</a></li>
-            <li><a href="/privacypolicy">Privacy Policy</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/aboutus">About us</Link></li>
+            <li><Link to="/calculators">Calculators</Link></li>
+            <li><Link to="/testimonials">Testimonials</Link></li>
+            <li><Link to="/contactus">Contact</Link></li>
+            <li><Link to="/privacypolicy">Privacy Policy</Link></li>
           </ul>
         </div>
 
@@ -102,13 +104,13 @@ const Footer = () => {
         <p className="text-sm">Copyright © 2025 Quicken Loans.</p>
         <div className="flex items-center space-x-4 mt-4 md:mt-0">
           <span>Follow us on</span>
-          <a href="#" className="p-2 border rounded-full"><FaFacebookF /></a>
-          <a href="#" className="p-2 border rounded-full"><FaTimes /></a>
-          <a href="#" className="p-2 border rounded-full"><FaInstagram /></a>
-          <a href="#" className="p-2 border rounded-full"><FaLinkedinIn /></a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="p-2 border rounded-full"><FaFacebookF /></a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="p-2 border rounded-full"><FaInstagram /></a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 border rounded-full"><FaLinkedinIn /></a>
         </div>
       </div>
     </footer>
   );
-}
+};
+
 export default Footer;
