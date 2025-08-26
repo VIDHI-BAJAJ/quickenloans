@@ -47,13 +47,13 @@ const Footer = () => {
         <div>
           <h3 className="font-bold mb-4">Popular Calculators</h3>
           <ul className="space-y-2">
-            <li><Link to="#">Budget Planner Calculator</Link></li>
-            <li><Link to="#">Extra Repayment Calculator</Link></li>
-            <li><Link to="#">How long to Repay Calculator</Link></li>
-            <li><Link to="#">Income Annualisation Calculator</Link></li>
-            <li><Link to="#">Income Gross up Calculator</Link></li>
-            <li><Link to="#">Mortgage Switching Calculator</Link></li>
-            <li><Link to="#">Split Loan Calculator</Link></li>
+            <li><Link to="/calculators">Budget Planner Calculator</Link></li>
+            <li><Link to="/calculators">Extra Repayment Calculator</Link></li>
+            <li><Link to="/calculators">How long to Repay Calculator</Link></li>
+            <li><Link to="/calculators">Income Annualisation Calculator</Link></li>
+            <li><Link to="/calculators">Income Gross up Calculator</Link></li>
+            <li><Link to="/calculators">Mortgage Switching Calculator</Link></li>
+            <li><Link to="/calculators">Split Loan Calculator</Link></li>
           </ul>
         </div>
 
@@ -61,13 +61,13 @@ const Footer = () => {
         <div>
           <h3 className="font-bold mb-4">Our Services</h3>
           <ul className="space-y-2">
-            <li><Link to="#">Self-Managed Super Funds</Link></li>
-            <li><Link to="#">Business/Vehicle Loan</Link></li>
-            <li><Link to="#">Home Loan</Link></li>
-            <li><Link to="#">Refinance</Link></li>
-            <li><Link to="#">Property Investment</Link></li>
-            <li><Link to="#">House & Land Packages</Link></li>
-            <li><Link to="#">First Home Buyer</Link></li>
+            <li><Link to="/services">Self-Managed Super Funds</Link></li>
+            <li><Link to="/services">Business/Vehicle Loan</Link></li>
+            <li><Link to="/services">Home Loan</Link></li>
+            <li><Link to="/services">Refinance</Link></li>
+            <li><Link to="/services">Property Investment</Link></li>
+            <li><Link to="/services">House & Land Packages</Link></li>
+            <li><Link to="/services">First Home Buyer</Link></li>
           </ul>
         </div>
 
@@ -104,9 +104,9 @@ const Footer = () => {
         <p className="text-sm">Copyright © 2025 Quicken Loans.</p>
         <div className="flex items-center space-x-4 mt-4 md:mt-0">
           <span>Follow us on</span>
-          <Link to="https://facebook.com" target="_blank" rel="noopener noreferrer" className="p-2 border rounded-full"><FaFacebookF /></Link>
-          <Link to="https://instagram.com" target="_blank" rel="noopener noreferrer" className="p-2 border rounded-full"><FaInstagram /></Link>
-          <Link to="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 border rounded-full"><FaLinkedinIn /></Link>
+          <a href ="https://facebook.com" target="_blank" rel="noopener noreferrer" className="p-2 border rounded-full"><FaFacebookF /></a>
+          <a href ="https://instagram.com" target="_blank" rel="noopener noreferrer" className="p-2 border rounded-full"><FaInstagram /></a>
+          <a href ="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 border rounded-full"><FaLinkedinIn /></a>
         </div>
       </div>
     </footer>
