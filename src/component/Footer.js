@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTimes } from "react-icons/fa";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
-
+import Logo from "../images/Logo.png"
 const Footer = () => {
   // Office toggle state
   const [openOffice, setOpenOffice] = useState(null);
@@ -22,7 +22,7 @@ const Footer = () => {
         {/* Logo Section */}
         <div className="flex flex-col items-start">
           <img
-            src="/logo.png" // replace with your logo
+            src={Logo}
             alt="Quicken Loans"
             className="w-40 mb-4"
           />
