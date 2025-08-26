@@ -22,7 +22,7 @@ const Footer = () => {
         {/* Logo Section */}
         <div className="flex flex-col items-start">
           <img
-            src={Logo}
+             src={Logo}
             alt="Quicken Loans"
             className="w-40 mb-4"
           />
