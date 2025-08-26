@@ -32,12 +32,12 @@ const Footer = () => {
         <div>
           <h3 className="font-bold mb-4">Quick Links</h3>
           <ul className="space-y-2">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Calculators</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/aboutus">About us</a></li>
+            <li><a href="/calculators">Calculators</a></li>
+            <li><a href="/testimonials">Testimonials</a></li>
+            <li><a href="/contactus">Contact</a></li>
+            <li><a href="/privacypolicy">Privacy Policy</a></li>
           </ul>
         </div>
 
