@@ -22,7 +22,7 @@ import ContactUs from "./component/ContactUs.js";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/quickenloans">
       <Navbar />
       <Routes>
         {/* Main Pages */}
