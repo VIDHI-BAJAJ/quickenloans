@@ -74,39 +74,39 @@ const Home = () => {
 
   const services = [
   {
-    title: "BUSINESS/VEHICLE LOAN",
+    title: "RESIDENTIAL HOME LOANS",
     description:
-      "House and land packages allows you to pay your builder at various stages during construction so that your loan amount increases as per the construction schedule.",
+      "Tailored home loan solutions for first home buyers, investors, and families. We compare lenders to secure the right loan for your needs.",
     image: Family
   },
   {
-    title: "FIRST HOME BUYER",
+    title: "REFINANCING & EQUITY RELEASE",
     description:
-      "House and land packages allows you to pay your builder at various stages during construction so that your loan amount increases as per the construction schedule.",
+      "Save on repayments or unlock equity from your property. We help you restructure your loan to access better rates or extra funds.",
     image: Family
   },
   {
-    title: "HOUSE & LAND PACKAGES",
+    title: "ASSET & EQUIPMENT FINANCE",
     description:
-      "House and land packages allows you to pay your builder at various stages during construction so that your loan amount increases as per the construction schedule.",
+      "Flexible finance for vehicles, machinery, and equipment to support your lifestyle or business growth.",
    image: Family
   },
   {
-    title: "FIRST HOME BUYER",
+    title: "PERSONAL LOANS",
     description:
-      "House and land packages allows you to pay your builder at various stages during construction so that your loan amount increases as per the construction schedule.",
+      "Fast and flexible loans for renovations, travel, education, or unexpected expenses.",
     image: Family
   },
   {
-    title: "REFINANCE",
+    title: "BUSINESS & COMMERCIAL LOANS",
     description:
-      "House and land packages allows you to pay your builder at various stages during construction so that your loan amount increases as per the construction schedule.",
+      "Finance solutions to start, grow, or expand your business. Tailored structures for cash flow and investment.",
     image: Family
   },
   {
-    title: "SELF-MANAGED SUPER FUNDS",
+    title: "SELF-MANAGED SUPER FUND LOANS",
     description:
-      "House and land packages allows you to pay your builder at various stages during construction so that your loan amount increases as per the construction schedule.",
+      "Use your super to invest in property with compliance-focused SMSF loan structures.",
    image: Family
   },
 ];
@@ -114,30 +114,30 @@ const features = [
   {
     icon: <MessageCircle className="w-6 h-6 text-white" />,
     bgColor: "bg-orange-500",
-    title: "Quick & Easy",
+    title: "Fast Approvals",
     description:
-      "Money matters are sometimes quite complicated. And we understand that you don’t want to be busy with it every day. That is why we like to make your financial matters simple and clear.",
+      "We streamline the loan process to save you time, ensuring quick responses and efficient approvals without unnecessary delays.",
   },
   {
     icon: <Clock className="w-6 h-6 text-white" />,
     bgColor: "bg-teal-600",
-    title: "Save Time & Paper Work",
+    title: "Expert Guidance",
     description:
-      "We will provide guidance throughout your loan approval process and back you with expert advice at every step. Assisting you to make your first home buying experience a hundred folds easier.",
+      "Our experienced team compares lenders and products for you, making sure you get the best possible deal for your situation.",
   },
   {
     icon: <Users className="w-6 h-6 text-white" />,
     bgColor: "bg-green-600",
-    title: "Personalised Services",
+    title: "Tailored Solutions",
     description:
-      "Our Services are tailored to our client's specific needs, abilities, and expectations. We provide professional advice tailored to your specific needs.",
+      "Every client is different. We take the time to understand your needs and provide finance options designed around your lifestyle and goals.",
   },
   {
     icon: <RotateCcw className="w-6 h-6 text-white" />,
     bgColor: "bg-red-600",
     title: "Ongoing Support",
     description:
-      "You have normal and human contact with us. Whether you prefer to look at the site, call or just walk in: you will always receive an answer in clear language.",
+      "We’re with you beyond settlement—whether you’re looking to refinance, access equity, or expand your investments, our team is here to support your journey.",
   },
 ];
 
@@ -161,7 +161,7 @@ const features = [
           {/* Header Section */}
           <div className="mb-6 sm:mb-8 text-center sm:text-left">
             <h2 className="text-[10px] sm:text-xs md:text-sm font-medium text-gray-600 mb-2 sm:mb-4 tracking-wide uppercase md:ml-3 md:mt-5">
-              YOUR DREAMS ... OUR MISSION !
+              MAKING YOUR DREAMS A REALITY!
             </h2>
             <h1 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-black leading-tight mb-4 sm:mb-8">
               Discover your options
@@ -230,7 +230,7 @@ const features = [
                       Refinancing your existing Loan?
                     </p>
                     <h3 className="text-lg sm:text-xl md:text-2xl font-normal text-black group-hover:text-green-600 transition-colors duration-300">
-                      Refinancing
+                      Refinancing/Equity
                     </h3>
                   </div>
                 </div>
@@ -271,8 +271,8 @@ const features = [
             Some of our trusted lenders Include
           </h3>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
-            Let us find a suitable provider from our{' '}
-            <span className="text-green-600">28+ Lender Panel</span>
+          Compare choices across our{' '}
+            <span className="text-green-600"> 40+ lenders.</span>
           </h2>
         </div>
 
@@ -332,9 +332,6 @@ const features = [
         <h2 className="text-2xl md:text-3xl font-bold text-green-600">
           Our Services
         </h2>
-        <p className="text-gray-600 mt-2">
-          Let us find a suitable provider from our 28+ Lender Panel
-        </p>
       </div>
 
       {/* Services Grid */}
@@ -368,11 +365,7 @@ const features = [
             Quicken Loans
           </h3>
           <p className="text-gray-600 leading-relaxed">
-            Our services are fully personalized and tailored to your specific
-            needs, abilities, and expectations, ensuring you receive expert
-            advice every step of the way. We understand that money matters can
-            often be complicated, which is why we strive to make your financial
-            journey simple, clear, and stress-free.
+           At Quicken Loans, we focus on delivering finance solutions that are simple, transparent, and tailored to your goals. Whether you’re buying your first home, refinancing, or growing your business, we make the process straightforward with expert guidance every step of the way.
           </p>
         </div>
 
@@ -459,23 +452,14 @@ const features = [
         {/* Text */}
         <div>
           <h2 className="text-2xl md:text-3xl font-bold text-green-700 mb-4 md:-ml-24">
-            Mortgage Brokers & Finance Specialist in Los Angeles
+            Mortgage Brokers & Finance Specialists in Adelaide – Serving All of Australia
           </h2>
           <p className="text-gray-700 mb-6 md:-ml-24">
-            If you are looking for mortgage brokers in Melbourne, Sydney,
-            Brisbane, Adelaide & Canberra we can meet you anytime at your
-            convenience and start a professional relationship that will make you
-            one step closer to your financial goals. At AFHL, we are proud to be
-            the mortgage broker and financial advisor of your choice. Understanding
-            the needs and difficulties in securing your dream home buying plan in
-            Australia, we are always ready to guide you with expert advice.
+           If you are looking for mortgage brokers in Adelaide, we are here to meet you at your convenience and build a professional relationship that brings you closer to your financial goals. At Quicken Loans, we are proud to be the mortgage broker and financial advisor of your choice.
+While we are based in Adelaide, we proudly serve clients across Australia, offering expert advice and guidance to help you secure your dream home or investment property. We understand the challenges of navigating the lending market and are always ready to simplify the process for you.
           </p>
           <p className="text-gray-700 md:-ml-24">
-            We provide business support services such as accounting, bookkeeping,
-            business advisory and taxation. Our mortgage services include home loan,
-            first home buyers, re-financing, property investment, house and land
-            package and vehicle loan. We also assist in a self-managed super fund
-            invested in homes, commercial properties investment.
+           Our services include residential home loans, first home buyer support, refinancing and equity release, property investment, asset and equipment finance, personal loans, business and commercial loans, and self-managed super fund (SMSF) lending. No matter where you are in Australia, our team is here to provide tailored solutions and ongoing support
           </p>
         </div>
 
