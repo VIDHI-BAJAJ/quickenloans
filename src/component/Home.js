@@ -185,7 +185,7 @@ const features = [
                     />
                   </div>
                   <div className="flex-1">
-                    <p className="text-gray-600 text-xs sm:text-sm md:text-base mb-1">
+                    <p className="text-black text-2xl sm:text-sm md:text-base mb-1">
                       Looking to buy a new house ?
                     </p>
                     <h3 className="text-lg sm:text-xl md:text-2xl font-normal text-black group-hover:text-green-600 transition-colors duration-300">
@@ -226,7 +226,7 @@ const features = [
                     />
                   </div>
                   <div className="flex-1">
-                    <p className="text-gray-600 text-xs sm:text-sm md:text-base mb-1">
+                    <p className="text-black text-2xl sm:text-sm md:text-base mb-1">
                       Refinancing your existing Loan?
                     </p>
                     <h3 className="text-lg sm:text-xl md:text-2xl font-normal text-black group-hover:text-green-600 transition-colors duration-300">
